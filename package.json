@@ -5,7 +5,8 @@
   "main": "./src/jszpl.js",
   "scripts": {
     "test": "jest",
-    "font-packer": "node ./font-packer/font-packer.js"
+    "font-packer": "node ./font-packer/font-packer.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "jest": "^27.0.4",
     "pngjs": "^6.0.0",
-    "webpack": "^5.38.1"
+    "webpack": "^5.38.1",
+    "webpack-cli": "^6.0.1"
   }
 }
